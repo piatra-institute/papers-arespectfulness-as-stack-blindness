@@ -1,0 +1,27 @@
+# Brief
+
+Written before research begins. See the workspace docs (`papers docs`): research-pipeline.md §1.
+
+> **Note 2026-06-13.** Reconstructed alongside drafting. The deep research (research.md, sources.md) was conducted first from a single seed chat; this brief records the scope the paper actually defends.
+
+## Question
+
+What is the characteristic failure of perception that arises when a hard-won achievement, a biological, technical, or cultural enabling condition, stabilizes into a reliable interface and is thereafter inherited as a frictionless default? Is that failure distinct from disrespect, ingratitude, alienation, disenchantment, and the various forms of inattention already named, and does it recur with the same structure across scales from the oxygenation of the planet to the modern software stack?
+
+## Claim
+
+There is a distinct condition, here called arespect, that is neither disrespect (perceiving a value and diminishing it) nor ingratitude (withholding feeling toward a recognized debt) but the failure to perceive the depth, cost, and difficulty of an enabling condition at all. Its mechanism is stack blindness: a working layer withdraws from attention because we act through it rather than toward it, and returns to view only in breakdown. The condition is dispositional rather than momentary, evaluative without being moralizing (a failure of accuracy before a failure of virtue), and its specific object is inherited difficulty rather than surface utility. The phenomenon has been described from several directions, each of which names the mechanism by which a layer recedes (Heidegger's withdrawing tool, Star's infrastructural invisibility, Latour's black-boxing, Polanyi's attending-from) or the content that recedes (Simondon's technical genesis, Stiegler's tertiary retention), while none names the dispositional failure of regard itself; the neologism is earned precisely there. Because the mechanisms of recession are necessary and functional, even virtuous, respect, the recovery of depth perception, is an achievement against a structural tendency rather than a default. The same structure is then exhibited across the inherited stack, from breathable oxygen (the Great Oxidation Event) and mitochondrial energy through fire, writing, and compilers, with every empirical claim graded by strength so the argument never outruns its evidence.
+
+## Kind
+
+**genealogy / conceptual synthesis** — defines a concept, distinguishes it from neighbors, and traces its object across deep-time biological, cultural, and technical scales using primary and authoritative secondary sources. Sets `has_simulation: false`, `claims_target: none`. The numbers in the paper are dates, timescales, and energy budgets drawn from cited primary literature, not from a simulation; the rigor apparatus is a claim-strength table that grades the paper's own biological and cognitive claims (established / plausible inference / live controversy / speculation) with an explicit overclaim-refused column.
+
+## Cornerstone literature
+
+A synthesis that omits a field's foundational authors is not yet a synthesis. The names this paper must engage, all now present in sources.md:
+
+- **STS / phenomenology / philosophy of technology**: Star (1999), Bowker & Star (1999) on infrastructural invisibility; Heidegger (1962) on the withdrawing ready-to-hand; Latour (1999) on black-boxing; Polanyi (1966) on attending-from; Simondon (2017) on the technical object's genesis; Stiegler (1998) on tertiary retention.
+- **Concept-distinction neighbors**: Weber (1946) disenchantment; Lukács (1971) and Marx (1959) reification and alienation; Mack & Rock (1998) and Simons & Chabris (1999) inattentional blindness; Rensink et al. (1997) change blindness; Whitehead (1925) misplaced concreteness.
+- **Biological deep stack**: Lyons et al. (2014), Bekker et al. (2004), Poulton et al. (2024) on the Great Oxidation Event; Imlay (2003, 2013) and Sessions et al. (2009) on oxygen toxicity; Weiss et al. (2016) and Moody et al. (2024) on LUCA; Margulis (1967) and Muñoz-Gómez et al. (2022) on mitochondrial endosymbiosis; Mitchell (1961) and Cogliati et al. (2013, 2016) on chemiosmosis and cristae; Lane & Martin (2010) versus Lynch & Marinov (2015) and Booth & Doolittle (2015) on bioenergetics and complexity.
+- **Bioenergetics and cognition**: Raichle & Gusnard (2002), Attwell & Laughlin (2001), Harris et al. (2012) on the brain's energy budget; Devine & Kittler (2018), Rangaraju et al. (2019) on synaptic mitochondria; Picard & McEwen (2018) on mitochondria and stress; Friston (2010) for the variational-versus-metabolic free-energy distinction; Chen & Zhang (2021) on energy as predisposition rather than correlate of consciousness; Craig (2002), Barrett & Simmons (2015) on interoception.
+- **Cultural and technical stack**: Wrangham (2009), Wrangham et al. (1999), Aiello & Wheeler (1995) versus Roebroeks & Villa (2011) and Navarrete et al. (2011) on fire and cooking; Berna et al. (2012), Goren-Inbar et al. (2004) on early-fire dating; Schmandt-Besserat (1992), Ong (1982), Goody (1977), Goody & Watt (1963) versus Street (1984) on writing and literacy; Plato (1995) on the pharmakon; Hopper (1952), Backus et al. (1957), Dijkstra (1972), Parnas (1972), Simon (1962), Spolsky (2002), Brooks (1987) on compilers, abstraction, and information hiding; Tomasello (1999), Henrich (2016) on cumulative culture; Russell & Vinsel (2016), Vinsel & Russell (2020), Edgerton (2007) on maintenance.
