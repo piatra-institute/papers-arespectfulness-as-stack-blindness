@@ -2,6 +2,23 @@
 
 Dated log of editorial passes and verification runs. Newest first. See the workspace docs (run `papers docs`): writing-pipeline.md §7 and refresh-pipeline.md.
 
+## 2026-06-13 — voice reform (genius-level rewrite)
+
+Scope: corpus-wide voice reform applied first to this paper as a reference exemplar. No change to claims, citations, or the claim-strength discipline; the rework is structural and prose-level.
+
+Changes:
+
+- Structure de-skeletoned: 10 numbered sections to 9. The bolt-on "Objections and Replies" section was dissolved into the argument (the ingratitude and neologism replies into §2, the Polanyi-backgrounding reply into §3, the romantic-primitivism reply into the close, the overclaim reply into the grading section). "What Can and Cannot Be Said" retitled "What the Evidence Will Bear" and reframed as the paper applying its own instrument to itself rather than an appendix; the generic conclusion retitled "Accumulated Impossibility."
+- Prose de-ticced against the new voice.md "second wave": the tricolon reflex thinned, per-section aphoristic closers varied, negate-pivot / inline-contrastive constructions removed, and the pet-vocabulary density cut sharply (lexical advisory before/after: recede/recession 27 to 2, discipline 11 to 1, exactly 5 to 2, "the very" 5 to 0, tricolon proxy 75 to 54). The abstract and opening rewritten for friction and a stronger through-line.
+- Both tables kept verbatim (they do real work). Every one of the 69 citations preserved.
+
+Verification:
+
+- voice: 0 errors, 0 review-candidates (lexical-density and structure advisories reviewed; the residual carries/carry 7 are ordinary usage, not the pet metaphor).
+- refs: 69 cited / 69 bib / 0 missing / 0 unused (unchanged).
+- build: clean, 18 pages, both tables within margins, 0 missing-character warnings.
+- check => PASS.
+
 ## 2026-06-13 — initial full build
 
 Scope: first complete draft from the single seed chat. Conducted the deep research, wrote the paper and all provenance docs, and brought the paper to a clean build. Conceptual paper: no simulation, no figures.
