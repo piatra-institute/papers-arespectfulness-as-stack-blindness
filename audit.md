@@ -2,6 +2,12 @@
 
 Dated log of editorial passes and verification runs. Newest first. See the workspace docs (run `papers docs`): writing-pipeline.md §7 and refresh-pipeline.md.
 
+## 2026-09-23 — prose revision
+
+Prose revised against the house standards. Headings made descriptive (Introduction, Definition of arespect, Mechanisms of withdrawal, Atmospheric oxygen as an inherited layer, Mitochondrial energy and cognition, Fire, writing, and cumulative culture, Abstraction in computing, Evidential status of the empirical claims, Conclusion).
+Tic counts before -> after: 'rather than' 12 -> 0; 'not X but Y' 10 -> 1; 'this paper' 6 -> 0; negate-pivot 1 -> 0; 'worth' 8 -> 1 (literal use); exactly/precisely 2 -> 0; first-person singular removed.
+Numbers: no simulation, so no grid audit applies. The abstract's claim that written marks "took 4,000 years to standardize" was moved to the introduction and restated as an alphabet "with roughly 4,000 years of history" (Proto-Sinaitic, c. 1850 BCE), which is accurate; all other numbers (2.4 to 2.3 Ga, 2%/20% brain energy, 1 million and 790,000 years for early fire, 400,000 to 300,000 years for habitual fire, 24 centuries since the Phaedrus) unchanged. The 1960s/1950s decades are now written as numerals. References copied verbatim.
+
 ## 2026-06-13 — voice reform (genius-level rewrite)
 
 Scope: corpus-wide voice reform applied first to this paper as a reference exemplar. No change to claims, citations, or the claim-strength discipline; the rework is structural and prose-level.
