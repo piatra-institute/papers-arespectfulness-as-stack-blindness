@@ -2,6 +2,16 @@
 
 Dated log of editorial passes and verification runs. Newest first. See the workspace docs (run `papers docs`): writing-pipeline.md §7 and refresh-pipeline.md.
 
+## 2026-09-23 — structured-evidence migration
+
+Structured-evidence migration (references and claims).
+- references.yaml: 69 CSL entries. 42 matched through Crossref and checked for year and title; 27 completed by hand (booth2015, bowker1999, craig2002, edgerton2007, friston2010, goody1977, heidegger1962, henrich2016, latour1999, lukacs1971, ong1982, plato1995, polanyi1966, russell2016, schmandtbesserat1992, simon1962, simondon2017, spang2015, spolsky2002, stiegler1998, street1984, tomasello1999, vinsel2020, weber1946, whitehead1925, wrangham2009, wrangham1999), with DOIs confirmed through doi.org where they exist. In-text author-year citations converted to Pandoc [@id] syntax, including those inside both tables; the legacy list replaced by the citeproc-rendered list (Chicago author-date).
+- Bibliographic corrections: marx1959 had been matched by Crossref to a 1959 book review in Economica and was re-entered as the Progress Publishers translation; spang2015 title corrected from the DOI record ("Complex archaea that bridge the eukaryotic and prokaryotic divide" -> "Complex Archaea That Bridge the Gap between Prokaryotes and Eukaryotes"); margulis1967 page range completed (225-274; the article appeared under the name Lynn Sagan, recorded in sources.md); author names restored for Mitchell, Star and Brooks; titles cleaned for brooks1987 and goreninbar2004; container titles for backus1957 and hopper1952; article numbers for berna2012, chen2021, weiss2016.
+- Prose correction: "no simple inverse relation between brain size and digestive-tissue mass across primates" -> "across mammals, primates included" (Navarrete et al. 2011 analysed 100 mammalian species including 23 primates).
+- claims.yaml: 22 claims (14 source, 3 definition, 4 interpretation, 1 normative). Source claims checked against abstracts (Crossref, OpenAlex, PubMed) and, for Raichle and Gusnard, the PMC full text: bekker2004, lyons2014, ostrander2024, moody2024, munozgomez2022, imachi2020, cogliati2013, lane2010, lynch2015, raichle2002, berna2012, goreninbar2004, roebroeks2011, navarrete2011.
+- Unverified, not bound: the humanities attributions (Weber, Lukács, Marx, Heidegger, Star, Latour, Polanyi, Simondon, Stiegler, Whitehead, Plato, Ong, Goody, Street); the Hopper and Backus et al. historical claims about disbelief in automatic coding; Imlay on oxidative damage, Sessions et al., Weiss et al., Attwell and Laughlin, Harris et al., Devine and Kittler, Rangaraju et al., Picard and McEwen, Chen and Zhang, Craig, Barrett and Simmons, Wrangham, Aiello and Wheeler, Schmandt-Besserat, Henrich, Edgerton, Russell and Vinsel (supporting passages not re-read); the "roughly 4,000 years" alphabet figure (uncited).
+- No simulation; metadata claims_target: claim-ledger.
+
 ## 2026-09-23 — prose revision
 
 Prose revised against the house standards. Headings made descriptive (Introduction, Definition of arespect, Mechanisms of withdrawal, Atmospheric oxygen as an inherited layer, Mitochondrial energy and cognition, Fire, writing, and cumulative culture, Abstraction in computing, Evidential status of the empirical claims, Conclusion).

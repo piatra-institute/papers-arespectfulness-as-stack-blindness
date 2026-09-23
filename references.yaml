@@ -1,0 +1,1264 @@
+# CSL references with stable IDs; cite with Pandoc [@id] syntax.
+# Migrated from the legacy inline bibliography. Entries with a DOI were resolved through doi.org
+# content negotiation (CSL-JSON) and checked for year and title; others were matched in Crossref
+# or entered by hand. Provenance per entry is in sources.md.
+references:
+- id: aiello1995
+  type: article-journal
+  title: 'The Expensive-Tissue Hypothesis: The Brain and the Digestive System in Human and Primate Evolution'
+  author:
+  - given: Leslie C.
+    family: Aiello
+  - given: Peter
+    family: Wheeler
+  container-title: Current Anthropology
+  volume: '36'
+  issue: '2'
+  page: 199-221
+  DOI: 10.1086/204350
+  issued:
+    date-parts:
+    - - 1995
+- id: attwell2001
+  type: article-journal
+  title: An Energy Budget for Signaling in the Grey Matter of the Brain
+  author:
+  - given: David
+    family: Attwell
+  - given: Simon B.
+    family: Laughlin
+  container-title: Journal of Cerebral Blood Flow & Metabolism
+  volume: '21'
+  issue: '10'
+  page: 1133-1145
+  DOI: 10.1097/00004647-200110000-00001
+  issued:
+    date-parts:
+    - - 2001
+- id: backus1957
+  type: paper-conference
+  title: The FORTRAN automatic coding system
+  author:
+  - given: J. W.
+    family: Backus
+  - given: H.
+    family: Stern
+  - given: I.
+    family: Ziller
+  - given: R. A.
+    family: Hughes
+  - given: R.
+    family: Nutt
+  - given: R. J.
+    family: Beeber
+  - given: S.
+    family: Best
+  - given: R.
+    family: Goldberg
+  - given: L. M.
+    family: Haibt
+  - given: H. L.
+    family: Herrick
+  - given: R. A.
+    family: Nelson
+  - given: D.
+    family: Sayre
+  - given: P. B.
+    family: Sheridan
+  container-title: 'Proceedings of the Western Joint Computer Conference: Techniques for Reliability'
+  page: 188-198
+  publisher: Association for Computing Machinery
+  DOI: 10.1145/1455567.1455599
+  issued:
+    date-parts:
+    - - 1957
+- id: barrett2015
+  type: article-journal
+  title: Interoceptive predictions in the brain
+  author:
+  - given: Lisa Feldman
+    family: Barrett
+  - given: W. Kyle
+    family: Simmons
+  container-title: Nature Reviews Neuroscience
+  volume: '16'
+  issue: '7'
+  page: 419-429
+  DOI: 10.1038/nrn3950
+  issued:
+    date-parts:
+    - - 2015
+- id: bekker2004
+  type: article-journal
+  title: Dating the rise of atmospheric oxygen
+  author:
+  - given: A.
+    family: Bekker
+  - given: H. D.
+    family: Holland
+  - given: P.-L.
+    family: Wang
+  - given: D.
+    family: Rumble
+  - given: H. J.
+    family: Stein
+  - given: J. L.
+    family: Hannah
+  - given: L. L.
+    family: Coetzee
+  - given: N. J.
+    family: Beukes
+  container-title: Nature
+  volume: '427'
+  issue: '6970'
+  page: 117-120
+  DOI: 10.1038/nature02260
+  issued:
+    date-parts:
+    - - 2004
+- id: berna2012
+  type: article-journal
+  title: Microstratigraphic evidence of in situ fire in the Acheulean strata of Wonderwerk Cave, Northern
+    Cape province, South Africa
+  author:
+  - given: Francesco
+    family: Berna
+  - given: Paul
+    family: Goldberg
+  - given: Liora Kolska
+    family: Horwitz
+  - given: James
+    family: Brink
+  - given: Sharon
+    family: Holt
+  - given: Marion
+    family: Bamford
+  - given: Michael
+    family: Chazan
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '109'
+  issue: '20'
+  DOI: 10.1073/pnas.1117620109
+  issued:
+    date-parts:
+    - - 2012
+  page: E1215-E1220
+- type: article-journal
+  title: Eukaryogenesis, How Special Really?
+  author:
+  - family: Booth
+    given: Austin
+  - family: Doolittle
+    given: W. Ford
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '112'
+  issue: '33'
+  page: 10278-10285
+  DOI: 10.1073/pnas.1421376112
+  issued:
+    date-parts:
+    - - 2015
+  id: booth2015
+- type: book
+  title: 'Sorting Things Out: Classification and Its Consequences'
+  author:
+  - family: Bowker
+    given: Geoffrey C.
+  - family: Star
+    given: Susan Leigh
+  publisher: MIT Press
+  publisher-place: Cambridge, MA
+  issued:
+    date-parts:
+    - - 1999
+  id: bowker1999
+- id: brooks1987
+  type: article-journal
+  title: 'No Silver Bullet: Essence and Accidents of Software Engineering'
+  author:
+  - family: Brooks
+    given: Frederick P.
+  container-title: Computer
+  volume: '20'
+  issue: '4'
+  page: 10-19
+  DOI: 10.1109/mc.1987.1663532
+  issued:
+    date-parts:
+    - - 1987
+- id: chen2021
+  type: article-journal
+  title: 'How Energy Supports Our Brain to Yield Consciousness: Insights From Neuroimaging Based on the
+    Neuroenergetics Hypothesis'
+  author:
+  - given: Yali
+    family: Chen
+  - given: Jun
+    family: Zhang
+  container-title: Frontiers in Systems Neuroscience
+  volume: '15'
+  DOI: 10.3389/fnsys.2021.648860
+  issued:
+    date-parts:
+    - - 2021
+  page: '648860'
+- id: cogliati2016
+  type: article-journal
+  title: 'Mitochondrial Cristae: Where Beauty Meets Functionality'
+  author:
+  - given: Sara
+    family: Cogliati
+  - given: Jose A.
+    family: Enriquez
+  - given: Luca
+    family: Scorrano
+  container-title: Trends in Biochemical Sciences
+  volume: '41'
+  issue: '3'
+  page: 261-273
+  DOI: 10.1016/j.tibs.2016.01.001
+  issued:
+    date-parts:
+    - - 2016
+- id: cogliati2013
+  type: article-journal
+  title: Mitochondrial Cristae Shape Determines Respiratory Chain Supercomplexes Assembly and Respiratory
+    Efficiency
+  author:
+  - given: Sara
+    family: Cogliati
+  - given: Christian
+    family: Frezza
+  - given: Maria Eugenia
+    family: Soriano
+  - given: Tatiana
+    family: Varanita
+  - given: Ruben
+    family: Quintana-Cabrera
+  - given: Mauro
+    family: Corrado
+  - given: Sara
+    family: Cipolat
+  - given: Veronica
+    family: Costa
+  - given: Alberto
+    family: Casarin
+  - given: Ligia C.
+    family: Gomes
+  - given: Ester
+    family: Perales-Clemente
+  - given: Leonardo
+    family: Salviati
+  - given: Patricio
+    family: Fernandez-Silva
+  - given: Jose A.
+    family: Enriquez
+  - given: Luca
+    family: Scorrano
+  container-title: Cell
+  volume: '155'
+  issue: '1'
+  page: 160-171
+  DOI: 10.1016/j.cell.2013.08.032
+  issued:
+    date-parts:
+    - - 2013
+- type: article-journal
+  title: 'How Do You Feel? Interoception: The Sense of the Physiological Condition of the Body'
+  author:
+  - family: Craig
+    given: A. D.
+  container-title: Nature Reviews Neuroscience
+  volume: '3'
+  issue: '8'
+  page: 655-666
+  DOI: 10.1038/nrn894
+  issued:
+    date-parts:
+    - - 2002
+  id: craig2002
+- id: devine2018
+  type: article-journal
+  title: Mitochondria at the neuronal presynapse in health and disease
+  author:
+  - given: Michael J.
+    family: Devine
+  - given: Josef T.
+    family: Kittler
+  container-title: Nature Reviews Neuroscience
+  volume: '19'
+  issue: '2'
+  page: 63-80
+  DOI: 10.1038/nrn.2017.170
+  issued:
+    date-parts:
+    - - 2018
+- id: dijkstra1972
+  type: article-journal
+  title: The humble programmer
+  author:
+  - given: Edsger W.
+    family: Dijkstra
+  container-title: Communications of the ACM
+  volume: '15'
+  issue: '10'
+  page: 859-866
+  DOI: 10.1145/355604.361591
+  issued:
+    date-parts:
+    - - 1972
+- type: book
+  title: 'The Shock of the Old: Technology and Global History since 1900'
+  author:
+  - family: Edgerton
+    given: David
+  publisher: Oxford University Press
+  publisher-place: Oxford
+  issued:
+    date-parts:
+    - - 2007
+  id: edgerton2007
+- type: article-journal
+  title: 'The Free-Energy Principle: A Unified Brain Theory?'
+  author:
+  - family: Friston
+    given: Karl
+  container-title: Nature Reviews Neuroscience
+  volume: '11'
+  issue: '2'
+  page: 127-138
+  DOI: 10.1038/nrn2787
+  issued:
+    date-parts:
+    - - 2010
+  id: friston2010
+- type: book
+  title: The Domestication of the Savage Mind
+  author:
+  - family: Goody
+    given: Jack
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  issued:
+    date-parts:
+    - - 1977
+  id: goody1977
+- id: goody1963
+  type: article-journal
+  title: The Consequences of Literacy
+  author:
+  - given: Jack
+    family: Goody
+  - given: Ian
+    family: Watt
+  container-title: Comparative Studies in Society and History
+  volume: '5'
+  issue: '3'
+  page: 304-345
+  DOI: 10.1017/s0010417500001730
+  issued:
+    date-parts:
+    - - 1963
+- id: goreninbar2004
+  type: article-journal
+  title: Evidence of Hominin Control of Fire at Gesher Benot Ya‘aqov, Israel
+  author:
+  - given: Naama
+    family: Goren-Inbar
+  - given: Nira
+    family: Alperson
+  - given: Mordechai E.
+    family: Kislev
+  - given: Orit
+    family: Simchoni
+  - given: Yoel
+    family: Melamed
+  - given: Adi
+    family: Ben-Nun
+  - given: Ella
+    family: Werker
+  container-title: Science
+  volume: '304'
+  issue: '5671'
+  page: 725-727
+  DOI: 10.1126/science.1095443
+  issued:
+    date-parts:
+    - - 2004
+- id: harris2012
+  type: article-journal
+  title: Synaptic Energy Use and Supply
+  author:
+  - given: Julia J.
+    family: Harris
+  - given: Renaud
+    family: Jolivet
+  - given: David
+    family: Attwell
+  container-title: Neuron
+  volume: '75'
+  issue: '5'
+  page: 762-777
+  DOI: 10.1016/j.neuron.2012.08.019
+  issued:
+    date-parts:
+    - - 2012
+- type: book
+  title: Being and Time
+  author:
+  - family: Heidegger
+    given: Martin
+  translator:
+  - family: Macquarrie
+    given: John
+  - family: Robinson
+    given: Edward
+  publisher: Harper & Row
+  publisher-place: New York
+  original-date:
+    date-parts:
+    - - 1927
+  issued:
+    date-parts:
+    - - 1962
+  id: heidegger1962
+- type: book
+  title: 'The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species,
+    and Making Us Smarter'
+  author:
+  - family: Henrich
+    given: Joseph
+  publisher: Princeton University Press
+  publisher-place: Princeton
+  DOI: 10.1515/9781400873296
+  issued:
+    date-parts:
+    - - 2016
+  id: henrich2016
+- id: hopper1952
+  type: paper-conference
+  title: The education of a computer
+  author:
+  - given: Grace Murray
+    family: Hopper
+  container-title: Proceedings of the 1952 ACM National Meeting (Pittsburgh)
+  page: 243-249
+  publisher: ACM Press
+  DOI: 10.1145/609784.609818
+  issued:
+    date-parts:
+    - - 1952
+- id: imachi2020
+  type: article-journal
+  title: Isolation of an archaeon at the prokaryote–eukaryote interface
+  author:
+  - given: Hiroyuki
+    family: Imachi
+  - given: Masaru K.
+    family: Nobu
+  - given: Nozomi
+    family: Nakahara
+  - given: Yuki
+    family: Morono
+  - given: Miyuki
+    family: Ogawara
+  - given: Yoshihiro
+    family: Takaki
+  - given: Yoshinori
+    family: Takano
+  - given: Katsuyuki
+    family: Uematsu
+  - given: Tetsuro
+    family: Ikuta
+  - given: Motoo
+    family: Ito
+  - given: Yohei
+    family: Matsui
+  - given: Masayuki
+    family: Miyazaki
+  - given: Kazuyoshi
+    family: Murata
+  - given: Yumi
+    family: Saito
+  - given: Sanae
+    family: Sakai
+  - given: Chihong
+    family: Song
+  - given: Eiji
+    family: Tasumi
+  - given: Yuko
+    family: Yamanaka
+  - given: Takashi
+    family: Yamaguchi
+  - given: Yoichi
+    family: Kamagata
+  - given: Hideyuki
+    family: Tamaki
+  - given: Ken
+    family: Takai
+  container-title: Nature
+  volume: '577'
+  issue: '7791'
+  page: 519-525
+  DOI: 10.1038/s41586-019-1916-6
+  issued:
+    date-parts:
+    - - 2020
+- id: imlay2003
+  type: article-journal
+  title: Pathways of Oxidative Damage
+  author:
+  - given: James A.
+    family: Imlay
+  container-title: Annual Review of Microbiology
+  volume: '57'
+  issue: '1'
+  page: 395-418
+  DOI: 10.1146/annurev.micro.57.030502.090938
+  issued:
+    date-parts:
+    - - 2003
+- id: imlay2013
+  type: article-journal
+  title: 'The molecular mechanisms and physiological consequences of oxidative stress: lessons from a
+    model bacterium'
+  author:
+  - given: James A.
+    family: Imlay
+  container-title: Nature Reviews Microbiology
+  volume: '11'
+  issue: '7'
+  page: 443-454
+  DOI: 10.1038/nrmicro3032
+  issued:
+    date-parts:
+    - - 2013
+- id: lane2010
+  type: article-journal
+  title: The energetics of genome complexity
+  author:
+  - given: Nick
+    family: Lane
+  - given: William
+    family: Martin
+  container-title: Nature
+  volume: '467'
+  issue: '7318'
+  page: 929-934
+  DOI: 10.1038/nature09486
+  issued:
+    date-parts:
+    - - 2010
+- type: book
+  title: 'Pandora''s Hope: Essays on the Reality of Science Studies'
+  author:
+  - family: Latour
+    given: Bruno
+  publisher: Harvard University Press
+  publisher-place: Cambridge, MA
+  issued:
+    date-parts:
+    - - 1999
+  id: latour1999
+- type: book
+  title: 'History and Class Consciousness: Studies in Marxist Dialectics'
+  author:
+  - family: Lukács
+    given: Georg
+  translator:
+  - family: Livingstone
+    given: Rodney
+  publisher: MIT Press
+  publisher-place: Cambridge, MA
+  original-date:
+    date-parts:
+    - - 1923
+  issued:
+    date-parts:
+    - - 1971
+  id: lukacs1971
+- id: lynch2015
+  type: article-journal
+  title: The bioenergetic costs of a gene
+  author:
+  - given: Michael
+    family: Lynch
+  - given: Georgi K.
+    family: Marinov
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '112'
+  issue: '51'
+  page: 15690-15695
+  DOI: 10.1073/pnas.1514974112
+  issued:
+    date-parts:
+    - - 2015
+- id: lyons2014
+  type: article-journal
+  title: The rise of oxygen in Earth’s early ocean and atmosphere
+  author:
+  - given: Timothy W.
+    family: Lyons
+  - given: Christopher T.
+    family: Reinhard
+  - given: Noah J.
+    family: Planavsky
+  container-title: Nature
+  volume: '506'
+  issue: '7488'
+  page: 307-315
+  DOI: 10.1038/nature13068
+  issued:
+    date-parts:
+    - - 2014
+- id: mack1998
+  type: book
+  title: Inattentional Blindness
+  author:
+  - given: Arien
+    family: Mack
+  - given: Irvin
+    family: Rock
+  publisher: The MIT Press
+  DOI: 10.7551/mitpress/3707.001.0001
+  issued:
+    date-parts:
+    - - 1998
+- type: article-journal
+  title: On the Origin of Mitosing Cells
+  author:
+  - family: Margulis
+    given: Lynn
+  note: Published under the name Lynn Sagan.
+  container-title: Journal of Theoretical Biology
+  volume: '14'
+  issue: '3'
+  page: 225-274
+  DOI: 10.1016/0022-5193(67)90079-3
+  issued:
+    date-parts:
+    - - 1967
+  id: margulis1967
+- id: martin1998
+  type: article-journal
+  title: The hydrogen hypothesis for the first eukaryote
+  author:
+  - given: William
+    family: Martin
+  - given: Miklós
+    family: Müller
+  container-title: Nature
+  volume: '392'
+  issue: '6671'
+  page: 37-41
+  DOI: 10.1038/32096
+  issued:
+    date-parts:
+    - - 1998
+- type: book
+  title: Economic and Philosophic Manuscripts of 1844
+  author:
+  - family: Marx
+    given: Karl
+  translator:
+  - family: Milligan
+    given: Martin
+  publisher: Progress Publishers
+  publisher-place: Moscow
+  original-date:
+    date-parts:
+    - - 1844
+  issued:
+    date-parts:
+    - - 1959
+  id: marx1959
+- id: mitchell1961
+  type: article-journal
+  title: Coupling of Phosphorylation to Electron and Hydrogen Transfer by a Chemi-Osmotic type of Mechanism
+  author:
+  - family: Mitchell
+    given: Peter
+  container-title: Nature
+  volume: '191'
+  issue: '4784'
+  page: 144-148
+  DOI: 10.1038/191144a0
+  issued:
+    date-parts:
+    - - 1961
+- id: moody2024
+  type: article-journal
+  title: The nature of the last universal common ancestor and its impact on the early Earth system
+  author:
+  - given: Edmund R. R.
+    family: Moody
+  - given: Sandra
+    family: Álvarez-Carretero
+  - given: Tara A.
+    family: Mahendrarajah
+  - given: James W.
+    family: Clark
+  - given: Holly C.
+    family: Betts
+  - given: Nina
+    family: Dombrowski
+  - given: Lénárd L.
+    family: Szánthó
+  - given: Richard A.
+    family: Boyle
+  - given: Stuart
+    family: Daines
+  - given: Xi
+    family: Chen
+  - given: Nick
+    family: Lane
+  - given: Ziheng
+    family: Yang
+  - given: Graham A.
+    family: Shields
+  - given: Gergely J.
+    family: Szöllősi
+  - given: Anja
+    family: Spang
+  - given: Davide
+    family: Pisani
+  - given: Tom A.
+    family: Williams
+  - given: Timothy M.
+    family: Lenton
+  - given: Philip C. J.
+    family: Donoghue
+  container-title: Nature Ecology & Evolution
+  volume: '8'
+  issue: '9'
+  page: 1654-1666
+  DOI: 10.1038/s41559-024-02461-1
+  issued:
+    date-parts:
+    - - 2024
+- id: munozgomez2022
+  type: article-journal
+  title: Site-and-branch-heterogeneous analyses of an expanded dataset favour mitochondria as sister to
+    known Alphaproteobacteria
+  author:
+  - given: Sergio A.
+    family: Muñoz-Gómez
+  - given: Edward
+    family: Susko
+  - given: Kelsey
+    family: Williamson
+  - given: Laura
+    family: Eme
+  - given: Claudio H.
+    family: Slamovits
+  - given: David
+    family: Moreira
+  - given: Purificación
+    family: López-García
+  - given: Andrew J.
+    family: Roger
+  container-title: Nature Ecology & Evolution
+  volume: '6'
+  issue: '3'
+  page: 253-262
+  DOI: 10.1038/s41559-021-01638-2
+  issued:
+    date-parts:
+    - - 2022
+- id: navarrete2011
+  type: article-journal
+  title: Energetics and the evolution of human brain size
+  author:
+  - given: Ana
+    family: Navarrete
+  - given: Carel P.
+    family: van Schaik
+  - given: Karin
+    family: Isler
+  container-title: Nature
+  volume: '480'
+  issue: '7375'
+  page: 91-93
+  DOI: 10.1038/nature10629
+  issued:
+    date-parts:
+    - - 2011
+- type: book
+  title: 'Orality and Literacy: The Technologizing of the Word'
+  author:
+  - family: Ong
+    given: Walter J.
+  publisher: Methuen
+  publisher-place: London
+  issued:
+    date-parts:
+    - - 1982
+  id: ong1982
+- id: ostrander2024
+  type: article-journal
+  title: Onset of coupled atmosphere–ocean oxygenation 2.3 billion years ago
+  author:
+  - given: Chadlin M.
+    family: Ostrander
+  - given: Andy W.
+    family: Heard
+  - given: Yunchao
+    family: Shu
+  - given: Andrey
+    family: Bekker
+  - given: Simon W.
+    family: Poulton
+  - given: Kasper P.
+    family: Olesen
+  - given: Sune G.
+    family: Nielsen
+  container-title: Nature
+  volume: '631'
+  issue: '8020'
+  page: 335-339
+  DOI: 10.1038/s41586-024-07551-5
+  issued:
+    date-parts:
+    - - 2024
+- id: parnas1972
+  type: article-journal
+  title: On the criteria to be used in decomposing systems into modules
+  author:
+  - given: D. L.
+    family: Parnas
+  container-title: Communications of the ACM
+  volume: '15'
+  issue: '12'
+  page: 1053-1058
+  DOI: 10.1145/361598.361623
+  issued:
+    date-parts:
+    - - 1972
+- id: picard2018
+  type: article-journal
+  title: 'Psychological Stress and Mitochondria: A Systematic Review'
+  author:
+  - given: Martin
+    family: Picard
+  - given: Bruce S.
+    family: McEwen
+  container-title: Psychosomatic Medicine
+  volume: '80'
+  issue: '2'
+  page: 141-153
+  DOI: 10.1097/psy.0000000000000545
+  issued:
+    date-parts:
+    - - 2018
+- type: book
+  title: Phaedrus
+  author:
+  - literal: Plato
+  translator:
+  - family: Nehamas
+    given: Alexander
+  - family: Woodruff
+    given: Paul
+  publisher: Hackett
+  publisher-place: Indianapolis
+  issued:
+    date-parts:
+    - - 1995
+  id: plato1995
+- type: book
+  title: The Tacit Dimension
+  author:
+  - family: Polanyi
+    given: Michael
+  publisher: Doubleday
+  publisher-place: Garden City, NY
+  issued:
+    date-parts:
+    - - 1966
+  id: polanyi1966
+- id: raichle2002
+  type: article-journal
+  title: Appraising the brain's energy budget
+  author:
+  - given: Marcus E.
+    family: Raichle
+  - given: Debra A.
+    family: Gusnard
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '99'
+  issue: '16'
+  page: 10237-10239
+  DOI: 10.1073/pnas.172399499
+  issued:
+    date-parts:
+    - - 2002
+- id: rangaraju2019
+  type: article-journal
+  title: Spatially Stable Mitochondrial Compartments Fuel Local Translation during Plasticity
+  author:
+  - given: Vidhya
+    family: Rangaraju
+  - given: Marcel
+    family: Lauterbach
+  - given: Erin M.
+    family: Schuman
+  container-title: Cell
+  volume: '176'
+  issue: 1-2
+  page: 73-84.e15
+  DOI: 10.1016/j.cell.2018.12.013
+  issued:
+    date-parts:
+    - - 2019
+- id: rensink1997
+  type: article-journal
+  title: 'To See or not to See: The Need for Attention to Perceive Changes in Scenes'
+  author:
+  - given: Ronald A.
+    family: Rensink
+  - given: J. Kevin
+    family: O'Regan
+  - given: James J.
+    family: Clark
+  container-title: Psychological Science
+  volume: '8'
+  issue: '5'
+  page: 368-373
+  DOI: 10.1111/j.1467-9280.1997.tb00427.x
+  issued:
+    date-parts:
+    - - 1997
+- id: roebroeks2011
+  type: article-journal
+  title: On the earliest evidence for habitual use of fire in Europe
+  author:
+  - given: Wil
+    family: Roebroeks
+  - given: Paola
+    family: Villa
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '108'
+  issue: '13'
+  page: 5209-5214
+  DOI: 10.1073/pnas.1018116108
+  issued:
+    date-parts:
+    - - 2011
+- type: article-magazine
+  title: Hail the Maintainers
+  author:
+  - family: Russell
+    given: Andrew L.
+  - family: Vinsel
+    given: Lee
+  container-title: Aeon
+  URL: https://aeon.co/essays/innovation-is-overvalued-maintenance-often-matters-more
+  issued:
+    date-parts:
+    - - 2016
+      - 4
+      - 7
+  id: russell2016
+- type: book
+  title: 'Before Writing, Vol. 1: From Counting to Cuneiform'
+  author:
+  - family: Schmandt-Besserat
+    given: Denise
+  publisher: University of Texas Press
+  publisher-place: Austin
+  issued:
+    date-parts:
+    - - 1992
+  id: schmandtbesserat1992
+- id: sessions2009
+  type: article-journal
+  title: The Continuing Puzzle of the Great Oxidation Event
+  author:
+  - given: Alex L.
+    family: Sessions
+  - given: David M.
+    family: Doughty
+  - given: Paula V.
+    family: Welander
+  - given: Roger E.
+    family: Summons
+  - given: Dianne K.
+    family: Newman
+  container-title: Current Biology
+  volume: '19'
+  issue: '14'
+  page: R567-R574
+  DOI: 10.1016/j.cub.2009.05.054
+  issued:
+    date-parts:
+    - - 2009
+- type: article-journal
+  title: The Architecture of Complexity
+  author:
+  - family: Simon
+    given: Herbert A.
+  container-title: Proceedings of the American Philosophical Society
+  volume: '106'
+  issue: '6'
+  page: 467-482
+  URL: https://www.jstor.org/stable/985254
+  issued:
+    date-parts:
+    - - 1962
+  id: simon1962
+- type: book
+  title: On the Mode of Existence of Technical Objects
+  author:
+  - family: Simondon
+    given: Gilbert
+  translator:
+  - family: Malaspina
+    given: Cecile
+  - family: Rogove
+    given: John
+  publisher: Univocal
+  publisher-place: Minneapolis
+  original-date:
+    date-parts:
+    - - 1958
+  issued:
+    date-parts:
+    - - 2017
+  id: simondon2017
+- id: simons1999
+  type: article-journal
+  title: 'Gorillas in our midst: sustained inattentional blindness for dynamic  events'
+  author:
+  - given: Daniel J.
+    family: Simons
+  - given: Christopher F.
+    family: Chabris
+  container-title: Perception
+  volume: '28'
+  issue: '9'
+  page: 1059-1074
+  DOI: 10.1068/p2952
+  issued:
+    date-parts:
+    - - 1999
+- type: article-journal
+  title: Complex Archaea That Bridge the Gap between Prokaryotes and Eukaryotes
+  author:
+  - family: Spang
+    given: Anja
+  - family: Saw
+    given: Jimmy H.
+  - family: Jørgensen
+    given: Steffen L.
+  - family: Zaremba-Niedzwiedzka
+    given: Katarzyna
+  - family: Martijn
+    given: Joran
+  - family: Lind
+    given: Anders E.
+  - family: van Eijk
+    given: Roel
+  - family: Schleper
+    given: Christa
+  - family: Guy
+    given: Lionel
+  - family: Ettema
+    given: Thijs J. G.
+  container-title: Nature
+  volume: '521'
+  issue: '7551'
+  page: 173-179
+  DOI: 10.1038/nature14447
+  issued:
+    date-parts:
+    - - 2015
+  id: spang2015
+- type: post-weblog
+  title: The Law of Leaky Abstractions
+  author:
+  - family: Spolsky
+    given: Joel
+  container-title: Joel on Software
+  URL: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
+  issued:
+    date-parts:
+    - - 2002
+      - 11
+      - 11
+  id: spolsky2002
+- id: star1999
+  type: article-journal
+  title: The Ethnography of Infrastructure
+  author:
+  - family: Star
+    given: Susan Leigh
+  container-title: American Behavioral Scientist
+  volume: '43'
+  issue: '3'
+  page: 377-391
+  DOI: 10.1177/00027649921955326
+  issued:
+    date-parts:
+    - - 1999
+- id: star1996
+  type: article-journal
+  title: 'Steps Toward an Ecology of Infrastructure: Design and Access for Large Information Spaces'
+  author:
+  - given: Susan Leigh
+    family: Star
+  - given: Karen
+    family: Ruhleder
+  container-title: Information Systems Research
+  volume: '7'
+  issue: '1'
+  page: 111-134
+  DOI: 10.1287/isre.7.1.111
+  issued:
+    date-parts:
+    - - 1996
+- type: book
+  title: 'Technics and Time, 1: The Fault of Epimetheus'
+  author:
+  - family: Stiegler
+    given: Bernard
+  translator:
+  - family: Beardsworth
+    given: Richard
+  - family: Collins
+    given: George
+  publisher: Stanford University Press
+  publisher-place: Stanford
+  original-date:
+    date-parts:
+    - - 1994
+  issued:
+    date-parts:
+    - - 1998
+  id: stiegler1998
+- type: book
+  title: Literacy in Theory and Practice
+  author:
+  - family: Street
+    given: Brian V.
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  issued:
+    date-parts:
+    - - 1984
+  id: street1984
+- type: book
+  title: The Cultural Origins of Human Cognition
+  author:
+  - family: Tomasello
+    given: Michael
+  publisher: Harvard University Press
+  publisher-place: Cambridge, MA
+  issued:
+    date-parts:
+    - - 1999
+  id: tomasello1999
+- type: book
+  title: 'The Innovation Delusion: How Our Obsession with the New Has Disrupted the Work That Matters
+    Most'
+  author:
+  - family: Vinsel
+    given: Lee
+  - family: Russell
+    given: Andrew L.
+  publisher: Currency
+  publisher-place: New York
+  issued:
+    date-parts:
+    - - 2020
+  id: vinsel2020
+- type: chapter
+  title: Science as a Vocation
+  author:
+  - family: Weber
+    given: Max
+  editor:
+  - family: Gerth
+    given: H. H.
+  - family: Mills
+    given: C. Wright
+  container-title: 'From Max Weber: Essays in Sociology'
+  publisher: Oxford University Press
+  publisher-place: New York
+  page: 129-156
+  original-date:
+    date-parts:
+    - - 1919
+  issued:
+    date-parts:
+    - - 1946
+  id: weber1946
+- id: weiss2016
+  type: article-journal
+  title: The physiology and habitat of the last universal common ancestor
+  author:
+  - given: Madeline C.
+    family: Weiss
+  - given: Filipa L.
+    family: Sousa
+  - given: Natalia
+    family: Mrnjavac
+  - given: Sinje
+    family: Neukirchen
+  - given: Mayo
+    family: Roettger
+  - given: Shijulal
+    family: Nelson-Sathi
+  - given: William F.
+    family: Martin
+  container-title: Nature Microbiology
+  volume: '1'
+  issue: '9'
+  DOI: 10.1038/nmicrobiol.2016.116
+  issued:
+    date-parts:
+    - - 2016
+  page: '16116'
+- type: book
+  title: Science and the Modern World
+  author:
+  - family: Whitehead
+    given: Alfred North
+  publisher: Macmillan
+  publisher-place: New York
+  issued:
+    date-parts:
+    - - 1925
+  id: whitehead1925
+- type: book
+  title: 'Catching Fire: How Cooking Made Us Human'
+  author:
+  - family: Wrangham
+    given: Richard
+  publisher: Basic Books
+  publisher-place: New York
+  issued:
+    date-parts:
+    - - 2009
+  id: wrangham2009
+- type: article-journal
+  title: 'The Raw and the Stolen: Cooking and the Ecology of Human Origins'
+  author:
+  - family: Wrangham
+    given: Richard W.
+  - family: Jones
+    given: James Holland
+  - family: Laden
+    given: Greg
+  - family: Pilbeam
+    given: David
+  - family: Conklin-Brittain
+    given: NancyLou
+  container-title: Current Anthropology
+  volume: '40'
+  issue: '5'
+  page: 567-594
+  DOI: 10.1086/300083
+  issued:
+    date-parts:
+    - - 1999
+  id: wrangham1999

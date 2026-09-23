@@ -1,0 +1,220 @@
+schema: 1
+coverage: reviewed
+reviewed_manuscript_sha256: dca0e841af531cd361d231c4f02e5ab8e8329ae82c1269bf92ef975b3ef1b79c
+claims:
+- id: goe-bekker
+  kind: source
+  evidence:
+    citation_id: bekker2004
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1038/nature02260; PubMed abstract (PMID 14712267): oxygen extremely low
+      before 2.45 Gyr, rise by 2.32 Gyr, recorded by loss of sulfur mass-independent fractionation (O2
+      above 10^-5 of the present atmospheric level).'
+  passage: Its permanent rise, the Great Oxidation Event, is placed in the early Paleoproterozoic, with
+    onset bracketed around 2.4 to 2.3 billion years ago and a transition that continued well afterward;
+    the rise is recorded in the disappearance of a mass-independent sulfur-isotope signature that survives
+    only under an oxygen-poor atmosphere [@lyons2014; @bekker2004].
+- id: goe-lyons
+  kind: source
+  evidence:
+    citation_id: lyons2014
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1038/nature13068; PubMed abstract (PMID 24553238): initial rise of O2 about
+      two and a half billion years ago, delayed build-up in the ocean, near-modern levels two billion
+      years later.'
+  passage: Its permanent rise, the Great Oxidation Event, is placed in the early Paleoproterozoic, with
+    onset bracketed around 2.4 to 2.3 billion years ago and a transition that continued well afterward;
+    the rise is recorded in the disappearance of a mass-independent sulfur-isotope signature that survives
+    only under an oxygen-poor atmosphere [@lyons2014; @bekker2004].
+- id: goe-ostrander
+  kind: source
+  evidence:
+    citation_id: ostrander2024
+    locator: Title and abstract
+    verified: true
+    verification_note: 'DOI 10.1038/s41586-024-07551-5; title (Onset of coupled atmosphere-ocean oxygenation
+      2.3 billion years ago) and PubMed abstract: the rise was oscillatory, with returns to anoxia until
+      perhaps 2.2 Ga.'
+  passage: Recent high-resolution work places the coupled oxygenation of atmosphere and ocean near 2.3
+    billion years ago and emphasizes that the transition was halting and protracted [@ostrander2024].
+- id: luca-moody
+  kind: source
+  evidence:
+    citation_id: moody2024
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1038/s41559-024-02461-1; Crossref abstract: LUCA dated to about 4.2 Ga
+      with a genome of at least 2.5 Mb encoding about 2,600 proteins, an anaerobic acetogen, revising
+      earlier estimates.'
+  passage: 'That fuller portrait is a strong inference and not an established fact: it is exposed to undetected
+    lateral gene transfer and has been revised by later work that changes the organism''s estimated age
+    and gene count [@moody2024].'
+- id: mito-alpha
+  kind: source
+  evidence:
+    citation_id: munozgomez2022
+    locator: Title and abstract
+    verified: true
+    verification_note: 'DOI 10.1038/s41559-021-01638-2; PubMed abstract: expanded analyses place mitochondria
+      as sister to known Alphaproteobacteria.'
+  passage: The mitochondrion descends from a free-living alphaproteobacterium taken into an archaeal host
+    in a single endosymbiotic event, an idea revived by Lynn Margulis in the 1960s and since placed beyond
+    serious doubt by phylogenomics [@margulis1967; @munozgomez2022].
+- id: asgard-cultivation
+  kind: source
+  evidence:
+    citation_id: imachi2020
+    locator: Title and abstract
+    verified: true
+    verification_note: 'DOI 10.1038/s41586-019-1916-6; PubMed record: isolation of an archaeon at the
+      prokaryote-eukaryote interface (a cultured Asgard archaeon).'
+  passage: The hydrogen hypothesis, the discovery of the Asgard archaea as the closest prokaryotic relatives
+    of eukaryotes, and the laboratory cultivation of a syntrophic Asgard archaeon all bear on the question
+    without settling it [@martin1998; @spang2015; @imachi2020].
+- id: cristae-cogliati
+  kind: source
+  evidence:
+    citation_id: cogliati2013
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1016/j.cell.2013.08.032; abstract (OpenAlex): cristae shape determines
+      the assembly and stability of respiratory chain supercomplexes and hence respiratory efficiency.'
+  passage: 'The inner membrane folds into cristae, and the folding is functional: cristae shape, set by
+    dedicated protein machinery and by rows of ATP-synthase dimers that bend the membrane along their
+    ridges, organizes respiratory-chain supercomplexes and tunes the efficiency of energy conversion [@cogliati2013;
+    @cogliati2016].'
+- id: lane-martin
+  kind: source
+  evidence:
+    citation_id: lane2010
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1038/nature09486; PubMed abstract: prokaryotic genome size constrained
+      by bioenergetics; mitochondrial endosymbiosis permitted a 200,000-fold expansion in genes expressed.'
+  passage: Lane and Martin proposed that prokaryotes face a bioenergetic ceiling, because they generate
+    ATP across their outer membrane and larger cells gain diminishing returns, and that the mitochondrion
+    removed the ceiling by internalizing energy-converting membranes, each with a small local genome,
+    thereby supplying orders of magnitude more energy per gene and permitting the larger genomes and complexity
+    of eukaryotes [@lane2010].
+- id: lynch-marinov
+  kind: source
+  evidence:
+    citation_id: lynch2015
+    locator: Significance statement
+    verified: true
+    verification_note: 'DOI 10.1073/pnas.1514974112; Crossref significance statement: the energetic burden
+      of a gene is no greater, and generally smaller, in larger cells in both bacteria and eukaryotes,
+      eliminating the need for an energetics barrier.'
+  passage: Lane and Martin proposed that prokaryotes face a bioenergetic ceiling, because they generate
+    ATP across their outer membrane and larger cells gain diminishing returns, and that the mitochondrion
+    removed the ceiling by internalizing energy-converting membranes, each with a small local genome,
+    thereby supplying orders of magnitude more energy per gene and permitting the larger genomes and complexity
+    of eukaryotes [@lane2010].
+- id: brain-energy
+  kind: source
+  evidence:
+    citation_id: raichle2002
+    locator: Opening paragraph
+    verified: true
+    verification_note: 'DOI 10.1073/pnas.172399499; PMC full text (PMC124895): the brain is about 2% of
+      body weight and accounts for about 20% of oxygen and calories consumed, a rate remarkably constant
+      despite varying mental activity.'
+  passage: The brain is about 2% of body mass and consumes on the order of 20% of the body's resting energy,
+    a share that changes little between demanding tasks and rest [@raichle2002].
+- id: wonderwerk
+  kind: source
+  evidence:
+    citation_id: berna2012
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1073/pnas.1117620109; Crossref abstract: burned bone and ashed plant remains
+      at Wonderwerk Cave, approximately 1.0 Ma.'
+  passage: Secure traces of controlled fire are old but sparse, with burned bone and ashed plant remains
+    at Wonderwerk Cave near 1 million years ago and a hearth-bearing site at Gesher Benot Ya'aqov around
+    790,000 years ago [@berna2012; @goreninbar2004], yet evidence for *habitual* fire, reliable enough
+    to sustain an evolutionary dependency, becomes continuous only around 400,000 to 300,000 years ago,
+    later than the hypothesis requires [@roebroeks2011].
+- id: gby
+  kind: source
+  evidence:
+    citation_id: goreninbar2004
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1126/science.1095443; Crossref abstract: burned seeds, wood and flint at
+      Gesher Benot Ya''aqov nearly 790,000 years ago, possibly indicating hearths.'
+  passage: Secure traces of controlled fire are old but sparse, with burned bone and ashed plant remains
+    at Wonderwerk Cave near 1 million years ago and a hearth-bearing site at Gesher Benot Ya'aqov around
+    790,000 years ago [@berna2012; @goreninbar2004], yet evidence for *habitual* fire, reliable enough
+    to sustain an evolutionary dependency, becomes continuous only around 400,000 to 300,000 years ago,
+    later than the hypothesis requires [@roebroeks2011].
+- id: habitual-fire
+  kind: source
+  evidence:
+    citation_id: roebroeks2011
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1073/pnas.1018116108; Crossref abstract: fire became a significant part
+      of the hominin repertoire only from about 300,000 to 400,000 years ago onward.'
+  passage: Secure traces of controlled fire are old but sparse, with burned bone and ashed plant remains
+    at Wonderwerk Cave near 1 million years ago and a hearth-bearing site at Gesher Benot Ya'aqov around
+    790,000 years ago [@berna2012; @goreninbar2004], yet evidence for *habitual* fire, reliable enough
+    to sustain an evolutionary dependency, becomes continuous only around 400,000 to 300,000 years ago,
+    later than the hypothesis requires [@roebroeks2011].
+- id: navarrete
+  kind: source
+  evidence:
+    citation_id: navarrete2011
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1038/nature10629; PubMed abstract: controlling for fat-free body mass,
+      brain size is not negatively correlated with digestive-tract mass in 100 mammalian species including
+      23 primates (the text previously said across primates).'
+  passage: The strict brain-versus-gut trade-off has also been weakened by work finding no simple inverse
+    relation between brain size and digestive-tissue mass across mammals, primates included [@navarrete2011].
+- id: arespect-def
+  kind: definition
+  rationale: Introduces the central term; the definition is stipulative and distinguished from disrespect
+    and ingratitude in Section 2.
+  passage: 'We call it arespect: the absence of felt regard for inherited difficulty, where the difficulty
+    has ceased to be perceived at all, so that no weighing or dismissal takes place.'
+- id: arespect-disposition
+  kind: definition
+  rationale: Fixes the concept as a standing disposition, not a momentary failure of attention.
+  passage: 'Arespect is a disposition and not a lapse: the claim concerns a person''s standing relation
+    of unfelt reliance on the grid, and a single failure to notice the grid on a given morning would not
+    qualify.'
+- id: stack-blindness-def
+  kind: definition
+  rationale: Names the mechanism, the withdrawal of a working layer from view.
+  passage: The condition is arespectfulness, and its mechanism, the withdrawal of a working layer from
+    view, is stack blindness.
+- id: transition-claim
+  kind: interpretation
+  rationale: 'The distinctness claim: the comparison table shows each adjacent concept names mechanism
+    or content, not the failure of regard.'
+  passage: The new term names that transition alone.
+- id: structural-claim
+  kind: interpretation
+  rationale: Holds on the established layers alone; the contested propositions carry no load, as the evidence
+    table states.
+  passage: The structural claim, that inherited difficulty drops from perception because of the success
+    of what drops, rests only on the established layers.
+- id: enabling-not-constitutive
+  kind: interpretation
+  rationale: Limits the bioenergetic claim to enabling conditions and declines the constitutive claim.
+  passage: The defensible claim is limited.
+- id: no-oxygen-catastrophe
+  kind: interpretation
+  rationale: Evidential limit on the Great Oxidation Event; the microbial record cannot support a documented
+    die-off.
+  passage: There is no direct evidence for a discrete mass extinction of anaerobes, an "oxygen catastrophe"
+    in the sense of a documented die-off, and the microbial record of the period is too sparse to support
+    such a claim.
+- id: remedy
+  kind: normative
+  rationale: 'Normative recommendation of the paper: regard for inherited depth, cultivated deliberately,
+    without abandoning fluent use.'
+  passage: 'What remains is depth perception: continuing to act fluently through the stack while keeping
+    its depth in view, in the literal sense of *respicere*.'
